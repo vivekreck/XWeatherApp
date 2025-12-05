@@ -1,5 +1,7 @@
+import Weather from "./Weather";
+
 function App() {
-  return <></>;
+  return <Weather />;
 }
 
 export default App;
