@@ -65,23 +65,23 @@ const Weather: React.FC = () => {
       {loading && <p className={styles.loading}>Loading data...</p>}
 
       {!loading && weather && (
-        <div className={`${styles.cards} "weather-cards"`}>
-          <div className={`${styles.card} "weather-card"`}>
+        <div className={`${styles.cards} weather-cards`}>
+          <div className={`${styles.card} weather-card`}>
             <h3>Temperature</h3>
             <p>{weather.temp_c}°C</p>
           </div>
 
-          <div className={`${styles.card} "weather-card"`}>
+          <div className={`${styles.card} weather-card`}>
             <h3>Humidity</h3>
             <p>{weather.humidity}%</p>
           </div>
 
-          <div className={`${styles.card} "weather-card"`}>
+          <div className={`${styles.card} weather-card`}>
             <h3>Condition</h3>
             <p>{weather.condition}</p>
           </div>
 
-          <div className={`${styles.card} "weather-card"`}>
+          <div className={`${styles.card} weather-card`}>
             <h3>Wind Speed</h3>
             <p>{weather.wind_kph} kph</p>
           </div>
